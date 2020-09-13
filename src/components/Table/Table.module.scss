@@ -1,0 +1,17 @@
+.errorMessage {
+  color: #ff0000;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+
+  border: 1px solid #000000;
+  border-spacing: 15px;
+  border-collapse: collapse;
+  border-spacing: 15px;
+
+  &Scroll {
+    overflow: auto;
+  }
+}

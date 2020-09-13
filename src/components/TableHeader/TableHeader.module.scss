@@ -1,0 +1,26 @@
+.header {
+  color: #ffffff;
+  background-color: #000000;
+  text-align: left;
+
+  cursor: pointer;
+}
+
+.cell {
+  padding: 5px;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+
+.asc::after {
+  content: '\2191';
+  margin-left: 5px;
+  color: #ffffff;
+}
+
+.desc::after {
+  content: '\2193';
+  color: #ffffff;
+  margin-left: 5px;
+}

@@ -1,0 +1,23 @@
+@import '../../variables';
+
+.row {
+  border-bottom: 1px solid #000000;
+
+  cursor: pointer;
+  transition: all 0.1s;
+
+  &:hover {
+    color: #ffffff;
+    background-color: $custom-blue;
+
+    transition: all 0.1s;
+  }
+}
+
+.cell {
+  padding: 5px;
+
+  border-right: 1px solid #000000;
+
+  white-space: nowrap;
+}

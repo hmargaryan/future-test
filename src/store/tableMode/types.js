@@ -1,0 +1,1 @@
+export const CHANGE_TABLE_MODE = 'CHANGE_TABLE_MODE'

@@ -1,0 +1,2 @@
+export const SET_SORT_PARAMS = 'SET_SORT_PARAMS'
+export const CLEAR_SORT_PARAMS = 'CLEAR_SORT_PARAMS'

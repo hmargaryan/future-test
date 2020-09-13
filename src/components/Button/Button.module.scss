@@ -1,0 +1,21 @@
+@import '../../variables';
+
+.button {
+  border: 1px solid #000000;
+  padding: 2px;
+
+  transition: all 0.1s;
+
+  &:hover {
+    color: #ffffff;
+    background-color: $custom-blue;
+
+    transition: all 0.1s;
+  }
+}
+
+.disabled {
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
